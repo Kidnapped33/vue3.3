@@ -2,9 +2,9 @@ lockfileVersion: 5.4
 
 specifiers:
   '@vitejs/plugin-vue': ^4.1.0
-  typescript: ^5.0.2
+  typescript: 4.8.4
   vite: ^4.3.2
-  vue: ^3.2.47
+  vue: ^3.3.0
   vue-tsc: ^1.4.2
 
 dependencies:
@@ -12,9 +12,9 @@ dependencies:
 
 devDependencies:
   '@vitejs/plugin-vue': registry.npmmirror.com/@vitejs/plugin-vue/4.2.3_vite@4.3.8+vue@3.3.4
-  typescript: registry.npmmirror.com/typescript/5.0.4
+  typescript: registry.npmmirror.com/typescript/4.8.4
   vite: registry.npmmirror.com/vite/4.3.8
-  vue-tsc: registry.npmmirror.com/vue-tsc/1.6.5_typescript@5.0.4
+  vue-tsc: registry.npmmirror.com/vue-tsc/1.6.5_typescript@4.8.4
 
 packages:
 
@@ -30,10 +30,10 @@ packages:
     version: 7.19.1
     engines: {node: '>=6.9.0'}
 
-  registry.npmmirror.com/@babel/parser/7.21.8:
-    resolution: {integrity: sha512-6zavDGdzG3gUqAdWvlLFfk+36RilI+Pwyuuh7HItyeScCWP3k6i8vKclAQ0bM/0y/Kz/xiwvxhMv9MgTJP5gmA==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@babel/parser/-/parser-7.21.8.tgz}
+  registry.npmmirror.com/@babel/parser/7.21.9:
+    resolution: {integrity: sha512-q5PNg/Bi1OpGgx5jYlvWZwAorZepEudDMCLtj967aeS7WMont7dUZI46M2XwcIQqvUlMxWfdLFu4S/qSxeUu5g==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@babel/parser/-/parser-7.21.9.tgz}
     name: '@babel/parser'
-    version: 7.21.8
+    version: 7.21.9
     engines: {node: '>=6.0.0'}
     hasBin: true
     dependencies:
@@ -326,7 +326,7 @@ packages:
       muggle-string: registry.npmmirror.com/muggle-string/0.2.2
     dev: true
 
-  registry.npmmirror.com/@volar/typescript/1.4.1-patch.2_typescript@5.0.4:
+  registry.npmmirror.com/@volar/typescript/1.4.1-patch.2_typescript@4.8.4:
     resolution: {integrity: sha512-lPFYaGt8OdMEzNGJJChF40uYqMO4Z/7Q9fHPQC/NRVtht43KotSXLrkPandVVMf9aPbiJ059eAT+fwHGX16k4w==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@volar/typescript/-/typescript-1.4.1-patch.2.tgz}
     id: registry.npmmirror.com/@volar/typescript/1.4.1-patch.2
     name: '@volar/typescript'
@@ -335,7 +335,7 @@ packages:
       typescript: '*'
     dependencies:
       '@volar/language-core': registry.npmmirror.com/@volar/language-core/1.4.1
-      typescript: registry.npmmirror.com/typescript/5.0.4
+      typescript: registry.npmmirror.com/typescript/4.8.4
     dev: true
 
   registry.npmmirror.com/@volar/vue-language-core/1.6.5:
@@ -354,7 +354,7 @@ packages:
       vue-template-compiler: registry.npmmirror.com/vue-template-compiler/2.7.14
     dev: true
 
-  registry.npmmirror.com/@volar/vue-typescript/1.6.5_typescript@5.0.4:
+  registry.npmmirror.com/@volar/vue-typescript/1.6.5_typescript@4.8.4:
     resolution: {integrity: sha512-er9rVClS4PHztMUmtPMDTl+7c7JyrxweKSAEe/o/Noeq2bQx6v3/jZHVHBe8ZNUti5ubJL/+Tg8L3bzmlalV8A==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@volar/vue-typescript/-/vue-typescript-1.6.5.tgz}
     id: registry.npmmirror.com/@volar/vue-typescript/1.6.5
     name: '@volar/vue-typescript'
@@ -362,9 +362,9 @@ packages:
     peerDependencies:
       typescript: '*'
     dependencies:
-      '@volar/typescript': registry.npmmirror.com/@volar/typescript/1.4.1-patch.2_typescript@5.0.4
+      '@volar/typescript': registry.npmmirror.com/@volar/typescript/1.4.1-patch.2_typescript@4.8.4
       '@volar/vue-language-core': registry.npmmirror.com/@volar/vue-language-core/1.6.5
-      typescript: registry.npmmirror.com/typescript/5.0.4
+      typescript: registry.npmmirror.com/typescript/4.8.4
     dev: true
 
   registry.npmmirror.com/@vue/compiler-core/3.3.4:
@@ -372,7 +372,7 @@ packages:
     name: '@vue/compiler-core'
     version: 3.3.4
     dependencies:
-      '@babel/parser': registry.npmmirror.com/@babel/parser/7.21.8
+      '@babel/parser': registry.npmmirror.com/@babel/parser/7.21.9
       '@vue/shared': registry.npmmirror.com/@vue/shared/3.3.4
       estree-walker: registry.npmmirror.com/estree-walker/2.0.2
       source-map-js: registry.npmmirror.com/source-map-js/1.0.2
@@ -390,7 +390,7 @@ packages:
     name: '@vue/compiler-sfc'
     version: 3.3.4
     dependencies:
-      '@babel/parser': registry.npmmirror.com/@babel/parser/7.21.8
+      '@babel/parser': registry.npmmirror.com/@babel/parser/7.21.9
       '@vue/compiler-core': registry.npmmirror.com/@vue/compiler-core/3.3.4
       '@vue/compiler-dom': registry.npmmirror.com/@vue/compiler-dom/3.3.4
       '@vue/compiler-ssr': registry.npmmirror.com/@vue/compiler-ssr/3.3.4
@@ -414,7 +414,7 @@ packages:
     name: '@vue/reactivity-transform'
     version: 3.3.4
     dependencies:
-      '@babel/parser': registry.npmmirror.com/@babel/parser/7.21.8
+      '@babel/parser': registry.npmmirror.com/@babel/parser/7.21.9
       '@vue/compiler-core': registry.npmmirror.com/@vue/compiler-core/3.3.4
       '@vue/shared': registry.npmmirror.com/@vue/shared/3.3.4
       estree-walker: registry.npmmirror.com/estree-walker/2.0.2
@@ -626,11 +626,11 @@ packages:
     version: 2.0.0
     engines: {node: '>=4'}
 
-  registry.npmmirror.com/typescript/5.0.4:
-    resolution: {integrity: sha512-cW9T5W9xY37cc+jfEnaUvX91foxtHkza3Nw3wkoF4sSlKn0MONdkdEndig/qPBWXNkmplh3NzayQzCiHM4/hqw==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/typescript/-/typescript-5.0.4.tgz}
+  registry.npmmirror.com/typescript/4.8.4:
+    resolution: {integrity: sha512-QCh+85mCy+h0IGff8r5XWzOVSbBO+KfeYrMQh7NJ58QujwcE22u+NUSmUxqF+un70P9GXKxa2HCNiTTMJknyjQ==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/typescript/-/typescript-4.8.4.tgz}
     name: typescript
-    version: 5.0.4
-    engines: {node: '>=12.20'}
+    version: 4.8.4
+    engines: {node: '>=4.2.0'}
     hasBin: true
     dev: true
 
@@ -677,7 +677,7 @@ packages:
       he: registry.npmmirror.com/he/1.2.0
     dev: true
 
-  registry.npmmirror.com/vue-tsc/1.6.5_typescript@5.0.4:
+  registry.npmmirror.com/vue-tsc/1.6.5_typescript@4.8.4:
     resolution: {integrity: sha512-Wtw3J7CC+JM2OR56huRd5iKlvFWpvDiU+fO1+rqyu4V2nMTotShz4zbOZpW5g9fUOcjnyZYfBo5q5q+D/q27JA==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/vue-tsc/-/vue-tsc-1.6.5.tgz}
     id: registry.npmmirror.com/vue-tsc/1.6.5
     name: vue-tsc
@@ -687,9 +687,9 @@ packages:
       typescript: '*'
     dependencies:
       '@volar/vue-language-core': registry.npmmirror.com/@volar/vue-language-core/1.6.5
-      '@volar/vue-typescript': registry.npmmirror.com/@volar/vue-typescript/1.6.5_typescript@5.0.4
+      '@volar/vue-typescript': registry.npmmirror.com/@volar/vue-typescript/1.6.5_typescript@4.8.4
       semver: registry.npmmirror.com/semver/7.5.1
-      typescript: registry.npmmirror.com/typescript/5.0.4
+      typescript: registry.npmmirror.com/typescript/4.8.4
     dev: true
 
   registry.npmmirror.com/vue/3.3.4:
