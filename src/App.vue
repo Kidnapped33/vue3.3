@@ -11,7 +11,7 @@ import HelloWorld from './components/HelloWorld.vue'
       <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
     </a>
   </div>
-  <!-- <HelloWorld userName='123' :userAge="18" /> -->
+  <HelloWorld userName='123' :userAge="18" />
 </template>
 
 <style scoped>
